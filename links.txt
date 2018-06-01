@@ -1,0 +1,11 @@
+https://jquery.com/
+https://learn.jquery.com/
+
+https://jquery.com/download/
+Using jQuery with a CDN
+---------------------------------------------------
+https://developers.google.com/speed/libraries/#jquery
+
+https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onload
+https://developer.mozilla.org/en-US/docs/Web/Events/DOMContentLoaded
+https://javascript.info/onload-ondomcontentloaded

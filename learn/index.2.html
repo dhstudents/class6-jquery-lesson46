@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Jay Query :-)</title>
+    <script src="scripts/jquery-3.3.1.js">
+    </script> 
+    <script>
+
+    $(function() {
+        $("<span style='color:blue;'>תוכן דינאמי</span>").appendTo('#div1')
+        $('#div1').empty();
+        // $("#div1").append("<p style='color:blue;'>תוכן דינאמי</p>")
+        // $("#div1").after("<p style='color:red'>תוכן דינאמי</p>")
+    });
+    // $(function() {
+    //     $("div").each( function(index , element) { 
+    //         if ($(element).html() === "Tel Aviv") {
+    //             var text = $(element).html();
+    //             $(element).html(text + ": found you!!!");
+    //             return false;
+    //         }
+    //     });
+    // });
+    // $(function() {
+    //     $("div").each( function(index) { 
+    //         $(this).html("I am div number " + index);
+    //     });
+    // });
+
+
+
+
+
+    </script>
+    <style>
+
+    </style>
+</head>
+<body>
+    <div style="background-color: yellow" id="div1">תוכן סטאטי</div>
+</body>
+</html>

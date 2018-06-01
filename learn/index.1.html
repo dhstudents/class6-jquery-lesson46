@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Jay Query :-)</title>
+    <script src="scripts/jquery-3.3.1.js">
+    </script> 
+    <script>
+
+    $(function() {
+        $("div").each( function(index , element) { 
+            if ($(element).html() === "Tel Aviv") {
+                var text = $(element).html();
+                $(element).html(text + ": found you!!!");
+                return false;
+            }
+        });
+    });
+    // $(function() {
+    //     $("div").each( function(index) { 
+    //         $(this).html("I am div number " + index);
+    //     });
+    // });
+
+
+
+
+
+    </script>
+    <style>
+    div {
+        background: #BBBBBB;
+        width: 250px;
+        height: 30px;
+    }
+    </style>
+</head>
+<body>
+    <div>John Bryce</div>
+    <div>Tel Aviv</div>
+    <div>Jquery</div>
+</body>
+</html>
